@@ -1,0 +1,153 @@
+
+/* importing fonts */
+  @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Kaushan+Script&family=Pacifico&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #F5EBE0;
+    overflow: hidden;
+
+}
+
+.nav-bar{
+    background-color: #FFEBDB;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    border: 2px solid #D5BDAF;
+    border-top: none;
+    border-left:none;
+    border-right:none;
+    box-shadow: 0px 3px 20px 0px rgba(0, 0, 0, 0.212);
+
+}
+
+.nav-bar .img-logo{
+    position: relative;
+    margin-left: 30px;
+    width: 150px;
+}
+
+.slogan-div{
+    display: flex;
+    align-items: center;
+    position: relative;
+
+}
+
+.stars-img{
+    position: relative;
+    width: 35px;
+    right: 32px;
+}
+
+.slogan{
+    margin: auto 5px;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 30px;
+    user-select: none;
+    position: inherit;
+    right: 35px;
+    -webkit-text-stroke: .05px black;
+    transition: 800ms;
+    
+}
+
+
+
+#slogan1{
+    color: #8F5EEB;
+}
+
+#slogan1:hover{
+    text-shadow: 0 0 15px #8F5EEB;
+
+}
+
+#slogan2{
+    color: #FDE340;
+}
+
+#slogan2:hover{
+    text-shadow: 0 0 15px #ffde04;
+
+}
+
+#slogan3{
+    color: #05F4D4;
+}
+
+#slogan3:hover{
+    text-shadow: 0 0 15px #05F4D4;
+
+}
+
+.about-div{
+    display: flex;
+    /* width: auto; */
+}
+
+.hearts-img{
+    position: relative;
+    width: 35px;
+    height: 35px;
+}
+
+.nav-bar .about-text{
+    font-family: 'Gistesy';
+    color: #E84B59;
+    margin-right: 30px;
+    font-size: 35px;
+    user-select: none;
+
+}   
+
+.nav-bar .about-text:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}  
+
+.element-body{
+    margin: 20px 30px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 100px);
+    gap: 2px;
+}
+
+
+.element-body .element-img{
+    width: 100%;
+    border-radius: 5px;
+    transition:200ms;
+    
+}
+
+.element-body .element-img:hover{
+    /* position: absolute; */
+    border: 1px solid white;
+    transform: scale(1.5);
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+/* .nav-bar .slogan-img{
+    /* position: relative; */
+    /* margin-left: 30px; */
+    /* width: 385px; */
+/* }  */ 
+
+/* .nav-bar .about-img{
+    position: relative;
+    top: 12px;
+    margin-right: 30px;
+    width: 100px;
+} */
+
